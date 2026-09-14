@@ -4,7 +4,7 @@ AgentSeek 是面向 AI Agent 应用开发生命周期的工具，它通过模板
 
 ### 2、DeepAgent是什么
 
-一个Agent框架，封装了
+一个Agent框架，封装了如计划、上下文管理、记忆管理、sub-agent协调等功能。
 
 ### 3、LangSmith是什么
 
