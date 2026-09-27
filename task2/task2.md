@@ -1,5 +1,5 @@
 ### Agent 开发的三个层次
-#### 底层：Agent Runtime
+#### 底层：Agent Runtime  -- langChain
 Agent Runtime解决的是Agent如何可靠地运行
 包含以下四点：
 - 持久化运行
@@ -7,10 +7,10 @@ Agent Runtime解决的是Agent如何可靠地运行
 - 关键点寻求人类批准
 - 跨上下文记忆
 
-#### 中间层：Agent Framework
+#### 中间层：Agent Framework  -- langGraph
 构建在 Runtime 之上，提供工具接入、模型抽象、Agent循环、中间件等
 
-#### 上层：Agent Harness
+#### 上层：Agent Harness -- DeepAgent
 DeepAgent就是基于这两者之上的产出
 
 ### Tool
